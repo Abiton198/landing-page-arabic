@@ -23,8 +23,13 @@ body{
     .container{
         display: flex;
         flex-direction: column;
+
     }
     form{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        border: solid rebeccapurple;
         margin: 0;
     }
     .name, .email {
